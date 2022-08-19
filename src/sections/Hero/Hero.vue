@@ -9,7 +9,7 @@
         </div>
         <div class="hero-img">
             <img
-              src="../../assets/hero_img.png"
+              src="../../assets/hero.png"
               alt="Hero"
               class="img-fluid"
             />
@@ -29,6 +29,10 @@ export default {
 <style scoped>
 .hero_content {
   max-width: 500px;
+}
+
+.hero_content h1{
+    font-weight: 700;
 }
 
 .hero-img {

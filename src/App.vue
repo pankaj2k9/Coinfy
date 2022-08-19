@@ -22,7 +22,7 @@ import Home from './pages/Home/Home.vue';
 
 <style>
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&display=swap');
 
 /* Reset Css */
 *{
@@ -37,7 +37,11 @@ import Home from './pages/Home/Home.vue';
   --primary-color:#63cf50;
   --text-color:#000;
   --bg-color:#702a34;
-  --primary-font:'Roboto', sans-serif;
+  --primary-font:'IBM Plex Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,span,button{
+  font-family: var(--primary-font);
 }
 
 html, body {
