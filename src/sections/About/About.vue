@@ -27,6 +27,13 @@ export default {
 </script>
 
 <style scoped>
+
+
+.sec {
+  padding: 5em 0px;
+  position: relative;
+}
+
 .line {
   position: absolute;
   left: 0;
@@ -37,8 +44,4 @@ export default {
   z-index: -1;
 }
 
-.sec {
-  padding: 5em 0px;
-  position: relative;
-}
 </style>
