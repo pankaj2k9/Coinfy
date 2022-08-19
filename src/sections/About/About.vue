@@ -7,7 +7,6 @@
           <br />
           Dobre vime, že nic není zadarmo,</span
         >
-
         <h3 class="smTitle">
           pokud chceme něčeho dosáhnout, <br />
           musíme bojovat.
@@ -15,7 +14,7 @@
         <p class="text-white">Proto jsme spojili sily s Nathanem.</p>
       </div>
       <!-- About With Image -->
-      <div class="row">
+      <div class="row image_sec">
         <div class="col-md-3">
           <img src="../../assets/about.png" alt="Razu Islam" />
         </div>
@@ -28,7 +27,7 @@
         </div>
       </div>
       <!-- Play Store -->
-      <div class="row">
+      <div class="row align-items-center position-relative">
         <div class="col-md-8">
           <Title title="Jsme Coinfy" />
           <p class="text-color">
@@ -44,6 +43,7 @@
             <img src="../../assets/app.png" alt="Client" />
             <img src="../../assets/play.png" alt="Client" />
           </div>
+          <img src="" alt="">
         </div>
 
         <div class="col-md-4">
@@ -102,6 +102,11 @@ export default { components: { Title } };
 .box {
   background-color: var(--bg-color);
   padding: 2em;
+  margin-left: 5em;
+}
+
+.image_sec{
+  margin-left: 5em;
 }
 
 .smTitle {
