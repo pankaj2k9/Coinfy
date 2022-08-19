@@ -32,16 +32,16 @@
           <h3>Sociální odkazy</h3>
           <div class="footer__social">
             <a href="https://www.facebook.com/">
-              <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" alt="facebook" />
+              <img src="../../assets/facebook.png" alt="facebook" />
             </a>
             <a href="https://www.instagram.com/">
-              <img src="https://cdn-icons-png.flaticon.com/128/733/733579.png" alt="instagram" />
+              <img src="../../assets/instagram.png" alt="instagram" />
             </a>
             <a href="https://twitter.com/">
-              <img src="https://cdn-icons-png.flaticon.com/128/220/220214.png" alt="twitter" />
+              <img src="../../assets/twitter.png" alt="twitter" />
             </a>
-            <a href="https://www.linkedin.com/">
-              <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="linkedin" />
+            <a href="https://www.youtube.com/">
+              <img src="../../assets/youtube.png" alt="youtube" />
             </a>
           </div>
            <!-- Play Store -->
@@ -75,7 +75,9 @@ export default {};
   flex-wrap: wrap;
   margin-top: 1.5em;
 }
-
+.row h3{
+  font-size: 1.2em;
+}
 .footer__content__social {
   gap: 10px;
 }

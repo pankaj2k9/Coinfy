@@ -12,6 +12,7 @@
               src="../../assets/hero.png"
               alt="Hero"
               class="img-fluid"
+              lazy="loading"
             />
         </div>
       </div>

@@ -34,9 +34,9 @@ import Home from './pages/Home/Home.vue';
 }
 /* Variable */
 :root{
-  --primary-color:#63cf50;
+  --primary-color:#79D100;
   --text-color:#000;
-  --bg-color:#702a34;
+  --bg-color:#191C33;
   --primary-font:'IBM Plex Sans', sans-serif;
 }
 
