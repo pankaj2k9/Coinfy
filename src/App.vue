@@ -36,8 +36,15 @@ import Home from './pages/Home/Home.vue';
 :root{
   --primary-color:#63cf50;
   --text-color:#000;
-  --bg-color:##702a34;
+  --bg-color:#702a34;
   --primary-font:'Roboto', sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  width:100%;
 }
 
 </style>
