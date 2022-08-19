@@ -24,13 +24,36 @@
             </div>
             <!-- Copy Right text -->
             <div>
-                <p>Copyright 2021 2022 Colsy All nghts resarvwd.</p>
+              <p>Copyright 2021 2022 Colsy All nghts resarvwd.</p>
             </div>
           </div>
         </div>
         <div class="col-md-2">
           <h3>Sociální odkazy</h3>
-          
+          <div class="footer__social">
+            <a href="https://www.facebook.com/">
+              <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" alt="facebook" />
+            </a>
+            <a href="https://www.instagram.com/">
+              <img src="https://cdn-icons-png.flaticon.com/128/733/733579.png" alt="instagram" />
+            </a>
+            <a href="https://twitter.com/">
+              <img src="https://cdn-icons-png.flaticon.com/128/220/220214.png" alt="twitter" />
+            </a>
+            <a href="https://www.linkedin.com/">
+              <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="linkedin" />
+            </a>
+          </div>
+           <!-- Play Store -->
+           <div class="play_store">
+            <h5>Ziskat DXtrade Mobile</h5>
+            <div class="store_img d-flex">
+            <img src="../../assets/app.png" alt="Client" />
+            <img src="../../assets/play.png" alt="Client" />
+          </div>
+           </div>
+           <!-- Support Email -->
+           <a class="mt-2 d-block" href="mailto:support@coinfy.io">support@coinfy.io</a>
         </div>
       </div>
     </div>
@@ -47,23 +70,43 @@ export default {};
   padding: 5em 0px;
 }
 
-.footer__content__text{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 1.5em;
+.footer__content__text {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.5em;
 }
 
-.footer__content__social{
-    gap: 10px;
+.footer__content__social {
+  gap: 10px;
 }
-.footer__content__social a{
-    text-decoration: underline !important;
-    cursor: pointer;
+.footer__content__social a {
+  text-decoration: underline !important;
+  cursor: pointer;
 }
-.footer__content__text p:first-child{
-    width: 50%;
+.footer__content__text p:first-child {
+  width: 50%;
 }
-.footer__content__text p:last-child{
-    width: 50%;
+.footer__content__text p:last-child {
+  width: 50%;
 }
+
+.store_img {
+  gap: 10px;
+}
+
+.store_img img {
+  width: 70px !important;
+}
+.footer__social img{
+    width: 20px;
+    margin-right: 0.7em;
+}
+
+.play_store{
+    margin-top: 1em;
+}
+.play_store h5{
+    font-size: 1em;
+}
+
 </style>

@@ -51,7 +51,7 @@
         </div>
       </div>
       <!-- Card  -->
-      <div class="row">
+      <div class="row gap-4 gap-md-0">
         <div class="col-md-6">
           <div class="d-flex align-items-center cardBg rounded">
             <div class="bg-content">
