@@ -46,6 +46,9 @@
                       <img src="../../assets/play.png" alt="Client" />
                     </div>
                   </div>
+                  <a class="mt-2 d-block" href="mailto:support@coinfy.io">support@coinfy.io</a>
+
+
 
                 </div>
               </div>
@@ -53,7 +56,6 @@
 
 
             <!-- Support Email -->
-            <a class="mt-2 d-block" href="mailto:support@coinfy.io">support@coinfy.io</a>
 
           </div>
         </div>
