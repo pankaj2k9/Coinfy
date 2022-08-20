@@ -1,26 +1,23 @@
 <template>
-   <div class="row image_sec align-items-center justify-content-between">
-        <div class="col-md-4">
-          <img src="../../assets/about.png" alt="Razu Islam" />
-        </div>
-        <div class="col-md-6">
-          <p class="text-color">
-            Přinášíme Vám nejen možnost podilet se s námi na Nathanově <br />
-            rüstu, ale i možnost vytvářet si
-          </p>
-          <h1 class="title">BUDOUCNOST V KRYPTOSVĚTĚ</h1>
-        </div>
-      </div>
+  <div class="row image_sec align-items-center justify-content-between">
+    <div class="col-md-4">
+      <img src="../../assets/about.png" alt="coinfy" />
+    </div>
+    <div class="col-md-6">
+      <p class="text-color">
+        Přinášíme Vám nejen možnost podilet se s námi na Nathanově <br />
+        rüstu, ale i možnost vytvářet si
+      </p>
+      <h1 class="title">BUDOUCNOST V KRYPTOSVĚTĚ</h1>
+    </div>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
 <style scoped>
-
 .row {
   margin-top: 5em;
 }
@@ -48,22 +45,22 @@
 }
 
 @media (max-width: 768px) {
+  .image_sec .col-md-6 {
+    width: 100% !important;
+  }
 
-  .row{
+  .row {
     flex-direction: column-reverse !important;
   }
   .image_sec {
     margin-left: 0;
   }
-  .image_sec p{
+  .image_sec p {
     font-size: 18px;
-    max-width: 272px;
+
   }
-  .title{
+  .title {
     font-size: 32px;
-    max-width: 272px;
   }
 }
-
-
 </style>

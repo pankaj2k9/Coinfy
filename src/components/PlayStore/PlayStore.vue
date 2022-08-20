@@ -39,6 +39,7 @@ import Title from '../Title/Title.vue';
 }
 .play_store img {
   width: 350px;
+  max-width: 100%;
 }
 
 .store_img img {
@@ -57,8 +58,8 @@ import Title from '../Title/Title.vue';
 }
 
 @media (max-width:550px){
+
   .play_store p{
-    max-width: 271px;
     font-size: 18px;
   }
 }

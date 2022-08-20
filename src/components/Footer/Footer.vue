@@ -2,27 +2,27 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-12">
           <div class="footer__content">
             <div class="footer__content__logo">
               <img src="../../assets/logo.png" alt="logo" width="150" />
             </div>
             <div class="footer__content__text">
-              <div class="info d-flex gap-0">
+              <div class="info d-flex">
                 <div class="d-flex textinfo">
                   <p>
                     Cointy je rogetorana anata spaleenot Trinity Capital LC Tato
                     spole@os oencoaná orgánem Financial Servioes Audhorty of s
                     Vincent & The Grenadiness 6biom porolon 450 L1C 2020
                   </p>
-                  <p>
+                  <p class="margin">
                     Omeznd jurisdkcec Nezakdime üity obyvatelüm urCityah
                     juatiodkci (vec USAL P ice anfonmaciai phečtito vaobecns
                     cbchadni podminky
                   </p>
                 </div>
 
-                <div>
+                <div class="footer_text">
                   <h3>Sociální odkazy</h3>
 
                   <div class="footer__social">
@@ -47,7 +47,10 @@
                       <img src="../../assets/play.png" alt="Client" />
                     </div>
                   </div>
-                  <a class="mt-2 d-block text-black underline" href="mailto:support@coinfy.io">
+                  <a
+                    class="mt-2 d-block text-black underline"
+                    href="mailto:support@coinfy.io"
+                  >
                     <img src="../../assets/sm-logo.png" alt="Client" />
                     support@coinfy.io
                   </a>
@@ -63,7 +66,7 @@
       </div>
       <!-- Copy Right text -->
       <div class="copyright">
-        <p>Copyright 2021 2022 Colsy All nghts resarvwd.</p>
+        <p>CopyrightⒸ 2021-2022 Coinfy. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -88,11 +91,11 @@ export default {};
 .row h3 {
   font-size: 1.2em;
 }
-.footer__content__social {
+/* .footer__content__social {
   gap: 10px;
   flex-wrap: wrap;
   margin-top: -45px;
-}
+} */
 .footer__content__social a {
   text-decoration: underline !important;
   cursor: pointer;
@@ -110,12 +113,27 @@ export default {};
   align-items: center;
 }
 
+.info {
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .store_img img {
   width: 70px !important;
 }
 .footer__social img {
   width: 20px;
   margin-right: 0.7em;
+}
+
+.info {
+  display: flex;
+}
+
+.textinfo {
+  /* width: 1010px; */
+  flex: 1;
 }
 
 .play_store {
@@ -125,16 +143,30 @@ export default {};
   font-size: 0.9em;
 }
 
-.copyright {
-  margin-top:2em;
+.footer_text {
+  margin-left: 4em;
 }
 
-.underline{
+.copyright {
+  margin-top: 2em;
+}
+
+.underline {
   text-decoration: underline !important;
 }
 
-.copyright p{
+.copyright p {
   margin-bottom: 0px !important;
+}
+
+/* .margin{
+  margin-left: 1.1em;
+} */
+
+@media (max-width: 990px) {
+  .textinfo {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -156,11 +188,19 @@ export default {};
   .info p {
     width: 100% !important;
   }
+
+  .footer_text {
+    margin-left: 0px;
+  }
+  .footer__content__social {
+    flex-direction: column;
+  }
 }
 
-@media (max-width:990px){
-  .footer__content__social{
+@media (max-width: 991px) {
+  .footer__content__social {
     margin-top: 0px !important;
+     flex-direction: column;
   }
 }
 
@@ -177,10 +217,10 @@ export default {};
   .textinfo {
     margin-top: 3em;
   }
-  .footer__content__social {
+  /* .footer__content__social {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+  } */
 }
 </style>
