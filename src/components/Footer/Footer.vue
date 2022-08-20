@@ -46,20 +46,15 @@
                       <img src="../../assets/play.png" alt="Client" />
                     </div>
                   </div>
-                  <a class="mt-2 d-block" href="mailto:support@coinfy.io">support@coinfy.io</a>
-
-
-
+                  <a class="mt-2 d-block" href="mailto:support@coinfy.io">
+                    <img src="../../assets/sm-logo.png" alt="Client">
+                    support@coinfy.io
+                    </a>
                 </div>
               </div>
             </div>
-
-
-            <!-- Support Email -->
-
           </div>
         </div>
-
 
       </div>
       <div class="d-flex footer__content__social">
@@ -98,6 +93,7 @@ export default {};
 }
 .footer__content__social {
   gap: 10px;
+  flex-wrap: wrap;
 }
 .footer__content__social a {
   text-decoration: underline !important;
@@ -150,6 +146,12 @@ export default {};
       width: 100% !important;
     }
 
+}
+
+@media (max-width:550px){
+  .textinfo{
+    margin-top: 3em;
+  }
 }
 
 </style>
