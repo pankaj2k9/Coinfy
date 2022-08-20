@@ -16,8 +16,9 @@
                     Vincent & The Grenadiness 6biom porolon 450 L1C 2020
                   </p>
                   <p>
-                    Omeznd jurisdkcec Nezakdime üity obyvatelüm urCityah juatiodkci
-                    (vec USAL P ice anfonmaciai phečtito vaobecns cbchadni podminky
+                    Omeznd jurisdkcec Nezakdime üity obyvatelüm urCityah
+                    juatiodkci (vec USAL P ice anfonmaciai phečtito vaobecns
+                    cbchadni podminky
                   </p>
                 </div>
 
@@ -47,15 +48,14 @@
                     </div>
                   </div>
                   <a class="mt-2 d-block" href="mailto:support@coinfy.io">
-                    <img src="../../assets/sm-logo.png" alt="Client">
+                    <img src="../../assets/sm-logo.png" alt="Client" />
                     support@coinfy.io
-                    </a>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
       <div class="d-flex footer__content__social">
         <a>VSeobeond olohodnl podmik</a>
@@ -66,7 +66,6 @@
         <p>Copyright 2021 2022 Colsy All nghts resarvwd.</p>
       </div>
     </div>
-
   </footer>
 </template>
 
@@ -75,20 +74,9 @@ export default {};
 </script>
 
 <style scoped>
-
-.footer .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-    text-align: center;
-}
-
 .footer {
   background-color: #f3f3f3;
   padding: 5em 0px;
-
 }
 
 .footer__content__text {
@@ -97,14 +85,12 @@ export default {};
   margin-top: 1.5em;
 }
 
-.row h3{
+.row h3 {
   font-size: 1.2em;
 }
 .footer__content__social {
   gap: 10px;
   flex-wrap: wrap;
-  justify-content: center;
-    align-items: center;
 }
 .footer__content__social a {
   text-decoration: underline !important;
@@ -126,45 +112,55 @@ export default {};
 .store_img img {
   width: 70px !important;
 }
-.footer__social img{
-    width: 20px;
-    margin-right: 0.7em;
+.footer__social img {
+  width: 20px;
+  margin-right: 0.7em;
 }
 
-.play_store{
-    margin-top: 1em;
+.play_store {
+  margin-top: 1em;
 }
-.play_store h5{
-    font-size: 0.9em;
+.play_store h5 {
+  font-size: 0.9em;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   .row {
-      display: flex;
+    display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-    }
+  }
 
-    .textinfo {
-      flex-direction: column;
-    }
+  .textinfo {
+    flex-direction: column;
+  }
 
-    .info {
-      flex-direction: column-reverse;
-      
-    } 
+  .info {
+    flex-direction: column-reverse;
+  }
 
-    .info p {
-      width: 100% !important;
-    }
-
-}
-
-@media (max-width:550px){
-  .textinfo{
-    margin-top: 3em;
+  .info p {
+    width: 100% !important;
   }
 }
 
+@media (max-width: 550px) {
+  .footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .textinfo {
+    margin-top: 3em;
+  }
+  .footer__content__social {
+    justify-content: center;
+    align-items: center;
+  }
+}
 </style>
