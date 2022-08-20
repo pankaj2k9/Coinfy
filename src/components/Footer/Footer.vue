@@ -9,7 +9,7 @@
             </div>
             <div class="footer__content__text">
               <div class="info d-flex">
-                <div class="d-flex textinfo">
+                <div class="d-flex textinfo gap-3">
                   <p>
                     Cointy je rogetorana anata spaleenot Trinity Capital LC Tato
                     spole@os oencoaná orgánem Financial Servioes Audhorty of s
