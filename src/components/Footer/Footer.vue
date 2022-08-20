@@ -8,15 +8,17 @@
               <img src="../../assets/logo.png" alt="logo" width="150" />
             </div>
             <div class="footer__content__text">
-              <p>
-                Cointy je rogetorana anata spaleenot Trinity Capital LC Tato
-                spole@os oencoaná orgánem Financial Servioes Audhorty of s
-                Vincent & The Grenadiness 6biom porolon 450 L1C 2020
-              </p>
-              <p>
-                Omeznd jurisdkcec Nezakdime üity obyvatelüm urCityah juatiodkci
-                (vec USAL P ice anfonmaciai phečtito vaobecns cbchadni podminky
-              </p>
+              <div class="info d-flex">
+                <p>
+                  Cointy je rogetorana anata spaleenot Trinity Capital LC Tato
+                  spole@os oencoaná orgánem Financial Servioes Audhorty of s
+                  Vincent & The Grenadiness 6biom porolon 450 L1C 2020
+                </p>
+                <p>
+                  Omeznd jurisdkcec Nezakdime üity obyvatelüm urCityah juatiodkci
+                  (vec USAL P ice anfonmaciai phečtito vaobecns cbchadni podminky
+                </p>
+              </div>
             </div>
             <div class="d-flex footer__content__social">
               <a>VSeobeond olohodnl podmik</a>
@@ -44,16 +46,16 @@
               <img src="../../assets/youtube.png" alt="youtube" />
             </a>
           </div>
-           <!-- Play Store -->
-           <div class="play_store">
+          <!-- Play Store -->
+          <div class="play_store">
             <h5>Ziskat DXtrade Mobile</h5>
             <div class="store_img d-flex">
-            <img src="../../assets/app.png" alt="Client" />
-            <img src="../../assets/play.png" alt="Client" />
+              <img src="../../assets/app.png" alt="Client" />
+              <img src="../../assets/play.png" alt="Client" />
+            </div>
           </div>
-           </div>
-           <!-- Support Email -->
-           <a class="mt-2 d-block" href="mailto:support@coinfy.io">support@coinfy.io</a>
+          <!-- Support Email -->
+          <a class="mt-2 d-block" href="mailto:support@coinfy.io">support@coinfy.io</a>
         </div>
       </div>
     </div>
@@ -75,6 +77,8 @@ export default {};
   flex-wrap: wrap;
   margin-top: 1.5em;
 }
+
+
 .row h3{
   font-size: 1.2em;
 }
@@ -109,6 +113,26 @@ export default {};
 }
 .play_store h5{
     font-size: 1em;
+}
+
+@media (max-width: 768px) { 
+  .row {
+      display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+
+    .info {
+      flex-direction: column;
+      
+    } 
+
+    .info p {
+      width: 100% !important;
+    }
+
 }
 
 </style>
