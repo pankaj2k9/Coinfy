@@ -174,6 +174,7 @@ export default {};
   .footer__content__social {
     justify-content: center;
     align-items: center;
+    margin-top: 0px !important;
   }
 }
 </style>
