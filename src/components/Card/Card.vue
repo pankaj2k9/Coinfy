@@ -1,5 +1,5 @@
 <template>
-    <div class="row gap-4 gap-md-4">
+    <div class="row gap-4 gap-md-4 margin">
         <div class="left rounded">
           <div class="d-flex align-items-center cardBg rounded">
             <div class="bg-content">
@@ -44,6 +44,9 @@
 
 <style  scoped>
 
+.margin{
+  margin-top: 15em;
+}
 
 .left,
 .right {

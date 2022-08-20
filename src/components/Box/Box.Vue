@@ -31,6 +31,7 @@ export default {};
   margin-left: 5em;
   position: relative;
   overflow: hidden;
+  width: 80% !important;
 }
 
 .box img {
@@ -54,6 +55,7 @@ export default {};
 @media (max-width: 768px) {
   .box {
     margin-left: 0px;
+    width: 100%;
   }
 }
 

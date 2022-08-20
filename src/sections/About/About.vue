@@ -35,13 +35,13 @@ export default {
 }
 
 .line {
-  position: absolute;
-  left: 0;
-  bottom: 340px;
-  width: 100vw !important;
-  height: 44%;
-  object-fit: cover;
-  z-index: -1;
+ position: absolute;
+    left: 0;
+    bottom: 485px;
+    width: 100vw !important;
+    height: 40%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 </style>

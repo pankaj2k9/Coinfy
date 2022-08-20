@@ -26,9 +26,10 @@
 </template>
 
 <script>
+import Title from '../Title/Title.vue';
     export default {
-        
-    }
+    components: { Title }
+}
 </script>
 
 <style scoped>

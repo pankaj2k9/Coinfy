@@ -18,6 +18,8 @@
       </div>
     </div>
   </section>
+  <!-- Overlay -->
+  <div class="position-fixed top-0 bottom-0 overlay"></div>
 </template>
 
 <script>
@@ -31,13 +33,19 @@ export default {
 .hero_content {
   max-width: 500px;
 }
-
 .hero_content h1{
     font-weight: 700;
 }
-
 .hero-img {
   width: 65%;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: #f74c4c70;
+    pointer-events: none;
+    z-index: 100;
 }
 
 @media (max-width: 991px) {
