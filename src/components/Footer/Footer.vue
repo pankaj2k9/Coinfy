@@ -75,6 +75,16 @@ export default {};
 </script>
 
 <style scoped>
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .footer {
   background-color: #f3f3f3;
   padding: 5em 0px;
@@ -93,6 +103,8 @@ export default {};
 .footer__content__social {
   gap: 10px;
   flex-wrap: wrap;
+  justify-content: center;
+    align-items: center;
 }
 .footer__content__social a {
   text-decoration: underline !important;
@@ -107,6 +119,8 @@ export default {};
 
 .store_img {
   gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .store_img img {

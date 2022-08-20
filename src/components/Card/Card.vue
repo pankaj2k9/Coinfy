@@ -144,10 +144,18 @@
     font-size: 46px;
     max-width: 272px;
   }
-  .app_btn{
-    width: 100%;
+  .right{
+    height: 440px;
   }
 
+}
+
+
+@media (max-width:350px){
+  .app_btn{
+    margin-bottom: 3em;
+    display: block;
+  }
 }
 
 </style>
