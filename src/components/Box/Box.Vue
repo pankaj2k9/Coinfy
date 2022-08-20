@@ -55,8 +55,24 @@ export default {};
 @media (max-width: 768px) {
   .box {
     margin-left: 0px;
-    width: 100%;
+    width: 100% !important;
+    height: 700px;
   }
+  .box-icon{
+    top: 61%;
+  }
+  .text_contentBox span{
+    font-size: 18px;
+    max-width: 272px;
+  }
+  .text_contentBox p{
+    font-size: 20px;
+    max-width: 186px;
+  }
+  .smTitle{
+    font-size: 32px;
+    max-width: 272px;
+  } 
 }
 
 </style>

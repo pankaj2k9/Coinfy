@@ -44,4 +44,11 @@ export default {
     z-index: -1;
 }
 
+@media (max-width:550px){
+  .line{
+    bottom: 1315px;
+    height: 20%;
+  }
+}
+
 </style>

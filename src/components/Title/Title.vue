@@ -22,4 +22,11 @@
     font-weight: 500;
     font-family: var(--primary-font);
 }
+
+@media (max-width: 550px) {
+    .subtitle{
+        font-size: 24px;
+        max-width: 121px;
+    }
+}
 </style>

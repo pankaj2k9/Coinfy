@@ -5,7 +5,7 @@
         <div class="hero_content">
           <Title title="A je to tady!" />
           <h1>Nathan Szaba a Coinfy <br> spojuji sily</h1>
-          <p class="text-color">Do baje jdeme spolecne- s cilem zazarit!</p>
+          <p class="text-color">Do baje jdeme spolecne     - s cilem zazarit!</p>
         </div>
         <div class="hero-img">
             <img
@@ -39,7 +39,6 @@ export default {
 .hero-img {
   width: 65%;
 }
-
 .overlay {
     width: 100%;
     height: 100%;
@@ -66,6 +65,25 @@ export default {
   color: var(--bg-color);
   font-weight: 500;
   margin-top: 1.2em;
+}
+
+
+/* Media COde */
+@media (max-width:550px){
+
+  .hero_content{
+    margin-top: 3em;
+  }
+  .hero_content h1{
+      font-weight: 400;
+      font-size: 36px;
+      max-width: 272px;
+  }
+  .hero_content p{
+      font-size: 18px;
+      color: #707070;
+      max-width: 204px;
+  }
 }
 
 </style>

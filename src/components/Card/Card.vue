@@ -57,6 +57,7 @@
   width: 645px;
   height: 385px;
   position: relative;
+  overflow: hidden;
 }
 
 .right {
@@ -107,10 +108,46 @@
   .right {
     width: 100%;
   }
-
-  .card_img {
-    display: none;
+  .left{
+    height: 703px;
   }
+  .right{
+    height: 430px;
+  }
+  .bg-content h4{
+    font-size: 24px;
+    max-width: 271px;
+  }
+  .bg-content p{
+    font-size: 18px;
+    max-width: 271px;
+  }
+  .card_img img{
+    width: 200px;
+    height: 364px;
+  }
+  .bg-content {
+    padding-left: 1em;
+  }
+  .card_img{
+    bottom: -10px;
+  }
+  .card-content{
+    margin-top: 2.5em;
+    padding-left: 1em;
+  }
+  .card-content p{
+    font-size: 24px;
+    max-width: 260px;
+  }
+  .card-content h1{
+    font-size: 46px;
+    max-width: 272px;
+  }
+  .app_btn{
+    width: 100%;
+  }
+
 }
 
 </style>

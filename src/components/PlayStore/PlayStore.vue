@@ -34,7 +34,9 @@ import Title from '../Title/Title.vue';
 
 <style scoped>
 
-
+.play_store{
+  margin-top: 5em;
+}
 .play_store img {
   width: 350px;
 }
@@ -52,6 +54,13 @@ import Title from '../Title/Title.vue';
   color: var(--bg-color);
   font-weight: 500;
   margin-top: 1.2em;
+}
+
+@media (max-width:550px){
+  .play_store p{
+    max-width: 271px;
+    font-size: 18px;
+  }
 }
 
 </style>

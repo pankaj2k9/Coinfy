@@ -43,5 +43,23 @@
   margin-top: 1.2em;
 }
 
+@media (max-width: 768px) {
+
+  .row{
+    flex-direction: column-reverse !important;
+  }
+  .image_sec {
+    margin-left: 0;
+  }
+  .image_sec p{
+    font-size: 18px;
+    max-width: 272px;
+  }
+  .title{
+    font-size: 32px;
+    max-width: 272px;
+  }
+}
+
 
 </style>
