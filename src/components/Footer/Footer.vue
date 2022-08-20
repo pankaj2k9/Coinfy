@@ -47,7 +47,7 @@
                       <img src="../../assets/play.png" alt="Client" />
                     </div>
                   </div>
-                  <a class="mt-2 d-block" href="mailto:support@coinfy.io">
+                  <a class="mt-2 d-block text-black underline" href="mailto:support@coinfy.io">
                     <img src="../../assets/sm-logo.png" alt="Client" />
                     support@coinfy.io
                   </a>
@@ -62,7 +62,7 @@
         <p>ohrana 0sobnich üdaj</p>
       </div>
       <!-- Copy Right text -->
-      <div>
+      <div class="copyright">
         <p>Copyright 2021 2022 Colsy All nghts resarvwd.</p>
       </div>
     </div>
@@ -91,6 +91,7 @@ export default {};
 .footer__content__social {
   gap: 10px;
   flex-wrap: wrap;
+  margin-top: -45px;
 }
 .footer__content__social a {
   text-decoration: underline !important;
@@ -122,6 +123,18 @@ export default {};
 }
 .play_store h5 {
   font-size: 0.9em;
+}
+
+.copyright {
+  margin-top:2em;
+}
+
+.underline{
+  text-decoration: underline !important;
+}
+
+.copyright p{
+  margin-bottom: 0px !important;
 }
 
 @media (max-width: 768px) {

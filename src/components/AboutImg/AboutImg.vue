@@ -1,5 +1,5 @@
 <template>
-   <div class="row image_sec align-items-center">
+   <div class="row image_sec align-items-center justify-content-between">
         <div class="col-md-4">
           <img src="../../assets/about.png" alt="Razu Islam" />
         </div>
@@ -27,6 +27,10 @@
 
 .image_sec {
   margin-left: 5em;
+}
+
+.image_sec .col-md-6 {
+  width: 55% !important;
 }
 
 .image_sec img {
