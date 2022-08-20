@@ -2,7 +2,7 @@
     <div
         class="row gap-4 gap-md-0 align-items-center position-relative play_store"
       >
-        <div class="col-md-8">
+        <div class="col-md-7">
           <Title title="Jsme Coinfy" />
           <p class="text-color">
             S námi müžete obchodovat kryptoměny jednoduše a odkudkoli,
