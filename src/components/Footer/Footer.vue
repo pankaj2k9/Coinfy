@@ -158,6 +158,12 @@ export default {};
   }
 }
 
+@media (max-width:990px){
+  .footer__content__social{
+    margin-top: 0px !important;
+  }
+}
+
 @media (max-width: 550px) {
   .footer .container {
     display: flex;
@@ -174,7 +180,6 @@ export default {};
   .footer__content__social {
     justify-content: center;
     align-items: center;
-    margin-top: 0px !important;
   }
 }
 </style>
