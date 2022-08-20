@@ -57,7 +57,6 @@
   width: 645px;
   height: 385px;
   position: relative;
-  overflow: hidden;
 }
 
 .right {
@@ -107,6 +106,7 @@
   .left,
   .right {
     width: 100%;
+      overflow: hidden;
   }
   .left{
     height: 703px;

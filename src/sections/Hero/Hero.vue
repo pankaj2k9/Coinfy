@@ -4,7 +4,7 @@
       <div class="flex-row d-md-flex justify-content-start align-items-center">
         <div class="hero_content">
           <Title title="A je to tady!" />
-          <h1>Nathan Szaba a Coinfy <br> spojuji sily</h1>
+          <h1 class=" fw-bold " >Nathan Dzaba a Coinfy <br> spojuji sily</h1>
           <p class="text-color">Do baje jdeme spolecne     - s cilem zazarit!</p>
         </div>
         <div class="hero-img">
