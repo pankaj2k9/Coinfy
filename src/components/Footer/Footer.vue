@@ -180,6 +180,7 @@ export default {};
   .footer__content__social {
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
 }
 </style>
