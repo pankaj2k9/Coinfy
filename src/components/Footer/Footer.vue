@@ -87,7 +87,6 @@ export default {};
   margin-top: 1.5em;
 }
 
-
 .row h3{
   font-size: 1.2em;
 }
@@ -122,7 +121,7 @@ export default {};
     margin-top: 1em;
 }
 .play_store h5{
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 @media (max-width: 768px) { 
