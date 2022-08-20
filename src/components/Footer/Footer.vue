@@ -76,7 +76,7 @@ export default {};
 <style scoped>
 .footer {
   background-color: #f3f3f3;
-  padding: 5em 0px;
+  padding: 3em 0px;
 }
 
 .footer__content__text {
