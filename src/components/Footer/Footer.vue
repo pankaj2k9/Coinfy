@@ -99,6 +99,7 @@ export default {};
 .footer__content__social a {
   text-decoration: underline !important;
   cursor: pointer;
+  margin-right: 20px;
 }
 .footer__content__text p:first-child {
   width: 50%;
