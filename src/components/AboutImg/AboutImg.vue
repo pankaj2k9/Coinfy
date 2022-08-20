@@ -1,5 +1,5 @@
 <template>
-   <div class="row image_sec">
+   <div class="row image_sec align-items-center">
         <div class="col-md-4">
           <img src="../../assets/about.png" alt="Razu Islam" />
         </div>

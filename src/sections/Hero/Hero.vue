@@ -31,10 +31,15 @@ export default {
 
 <style scoped>
 .hero_content {
-  max-width: 500px;
+  max-width: 550px;
 }
 .hero_content h1{
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+.hero_content p{
+  font-size: 18px;
+  color: #777E90;
 }
 .hero-img {
   width: 65%;
